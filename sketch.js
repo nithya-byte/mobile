@@ -14,11 +14,11 @@ function draw() {
   {
     //wall.x=touches[0].x;
     //wall.y=touches[0].y;
-     if (touches[0].x==wall.x &&touches[0].y>wall.y)
+     if (touches[0].x=wall.x &&touches[0].y>wall.y)
     {
       wall.velocityY=2;
     }
-    else if (touches[0].x==wall.x && touches[0].y<wall.y)
+    else if (touches[0].x=wall.x && touches[0].y<wall.y)
     {
       wall.velocityY=-2;
     }
