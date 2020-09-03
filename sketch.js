@@ -12,15 +12,15 @@ function draw() {
   background(255,255,255);  
   if(touches.length>0)
   {
-    if(touches[0].x>wall.x)
-    {
-      wall.velocityX=2;
-    }
-    else if (touches[0].x<wall.x)
-    {
-      wall.velocityX=-2
-    }
-    else if (touches[0].y>wall.y)
+    //if(touches[0].x>wall.x)
+    //{
+      //wall.velocityX=2;
+    //}
+    //else if (touches[0].x<wall.x)
+    //{
+      //wall.velocityX=-2
+    //}
+     if (touches[0].y>wall.y)
     {
       wall.velocityY=2;
     }
