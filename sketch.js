@@ -18,15 +18,15 @@ function draw() {
     {
       wall.velocityY=2;
     }
-    else if (touches[0].x=wall.x && touches[0].y<wall.y)
+    if (touches[0].x=wall.x && touches[0].y<wall.y)
     {
       wall.velocityY=-2;
     }
-    else if (touches[0].y=wall.y &&touches[0].x>wall.x)
+    if (touches[0].x>wall.x)
     {
       wall.velocityX=2;
     }
-    else if (touches[0].y=wall.y && touches[0].x<wall.x)
+    if (touches[0].x<wall.x)
     {
       wall.velocityX=-2;
     }
